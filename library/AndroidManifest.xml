@@ -3,4 +3,7 @@
 	
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="15"/>
 
+    <application>
+        <activity android:name=".app.SherlockMapActivity"/>
+    </application>
 </manifest>
