@@ -20,7 +20,7 @@
 
 <TabHost
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@android:id/tabhost"
+    android:itemId="@android:itemId/tabhost"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -30,20 +30,20 @@
         android:layout_height="match_parent">
 
         <TabWidget
-            android:id="@android:id/tabs"
+            android:itemId="@android:itemId/tabs"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"/>
 
         <FrameLayout
-            android:id="@android:id/tabcontent"
+            android:itemId="@android:itemId/tabcontent"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="0"/>
 
         <android.support.v4.view.ViewPager
-            android:id="@+id/pager"
+            android:itemId="@+itemId/pager"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>

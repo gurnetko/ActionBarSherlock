@@ -30,13 +30,13 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/pick_result"/>
 
-    <Button android:id="@+id/corky"
+    <Button android:itemId="@+itemId/corky"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="@string/corky">
             <requestFocus />
     </Button>
 
-    <Button android:id="@+id/violet"
+    <Button android:itemId="@+itemId/violet"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="@string/violet">
     </Button>

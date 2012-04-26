@@ -95,7 +95,7 @@
 
 	<profiles>
 		<profile>
-			<id>release</id>
+			<itemId>release</itemId>
 			<activation>
 				<property>
 					<name>performRelease</name>

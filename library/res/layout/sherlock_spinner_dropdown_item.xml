@@ -18,7 +18,7 @@
 */
 -->
 <TextView xmlns:android="http://schemas.android.com/apk/res/android" 
-    android:id="@android:id/text1"
+    android:itemId="@android:itemId/text1"
     style="?attr/spinnerDropDownItemStyle"
     android:singleLine="true"
     android:layout_width="match_parent"

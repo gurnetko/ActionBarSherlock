@@ -27,7 +27,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/fragment_retain_instance_msg" />
 
-    <ProgressBar android:id="@+id/progress_horizontal"
+    <ProgressBar android:itemId="@+itemId/progress_horizontal"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="200dip"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:padding="6dp"
         android:max="500" />
 
-    <Button android:id="@+id/restart"
+    <Button android:itemId="@+itemId/restart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

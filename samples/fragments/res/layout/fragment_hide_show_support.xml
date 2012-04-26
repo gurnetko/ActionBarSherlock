@@ -30,12 +30,12 @@
         android:gravity="center_vertical" android:layout_weight="1"
         android:layout_width="match_parent" android:layout_height="wrap_content">
 
-        <Button android:id="@+id/frag1hide"
+        <Button android:itemId="@+itemId/frag1hide"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Hide" />
 
         <fragment android:name="com.actionbarsherlock.sample.fragments.FragmentHideShowSupport$FirstFragment"
-                android:id="@+id/fragment1" android:layout_weight="1"
+                android:itemId="@+itemId/fragment1" android:layout_weight="1"
                 android:layout_width="0px" android:layout_height="wrap_content" />
 
     </LinearLayout>
@@ -44,12 +44,12 @@
         android:gravity="center_vertical" android:layout_weight="1"
         android:layout_width="match_parent" android:layout_height="wrap_content">
 
-        <Button android:id="@+id/frag2hide"
+        <Button android:itemId="@+itemId/frag2hide"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Hide" />
 
         <fragment android:name="com.actionbarsherlock.sample.fragments.FragmentHideShowSupport$SecondFragment"
-                android:id="@+id/fragment2" android:layout_weight="1"
+                android:itemId="@+itemId/fragment2" android:layout_weight="1"
                 android:layout_width="0px" android:layout_height="wrap_content" />
 
     </LinearLayout>

@@ -23,10 +23,10 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <fragment class="com.actionbarsherlock.sample.fragments.FragmentLayoutSupport$TitlesFragment"
-            android:id="@+id/titles" android:layout_weight="1"
+            android:itemId="@+itemId/titles" android:layout_weight="1"
             android:layout_width="0px" android:layout_height="match_parent" />
 
-    <FrameLayout android:id="@+id/details" android:layout_weight="1"
+    <FrameLayout android:itemId="@+itemId/details" android:layout_weight="1"
             android:layout_width="0px" android:layout_height="match_parent" />
 
 </LinearLayout>

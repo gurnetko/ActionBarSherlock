@@ -19,21 +19,21 @@
         />
 
     <EditText
-        android:id="@+id/say_text"
+        android:itemId="@+itemId/say_text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Say Something"
         />
 
     <Button
-        android:id="@+id/brush_teeth"
+        android:itemId="@+itemId/brush_teeth"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Brush Teeth"
         />
 
     <Button
-        android:id="@+id/fight_evil"
+        android:itemId="@+itemId/fight_evil"
         android:tag="fightevil"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
 
 
     <Button
-        android:id="@+id/self_destruct"
+        android:itemId="@+itemId/self_destruct"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

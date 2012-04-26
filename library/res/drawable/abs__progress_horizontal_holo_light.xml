@@ -16,15 +16,15 @@
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@android:id/background"
+    <item android:itemId="@android:itemId/background"
           android:drawable="@drawable/abs__progress_bg_holo_light" />
 
-    <item android:id="@android:id/secondaryProgress">
+    <item android:itemId="@android:itemId/secondaryProgress">
         <scale android:scaleWidth="100%"
                android:drawable="@drawable/abs__progress_secondary_holo_light" />
     </item>
 
-    <item android:id="@android:id/progress">
+    <item android:itemId="@android:itemId/progress">
         <scale android:scaleWidth="100%"
                android:drawable="@drawable/abs__progress_primary_holo_light" />
     </item>

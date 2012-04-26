@@ -10,13 +10,13 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
         <Button
-            android:id="@+id/enable"
+            android:itemId="@+itemId/enable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="Enable" />
         <Button
-            android:id="@+id/disable"
+            android:itemId="@+itemId/disable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Disable" />

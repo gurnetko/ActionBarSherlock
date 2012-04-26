@@ -27,7 +27,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/fragment_context_menu_msg" />
 
-    <Button android:id="@+id/long_press"
+    <Button android:itemId="@+itemId/long_press"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
