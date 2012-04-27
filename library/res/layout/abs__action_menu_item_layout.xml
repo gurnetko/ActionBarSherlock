@@ -24,7 +24,7 @@
     android:paddingLeft="4dip"
     android:paddingRight="4dip"
     style="?attr/actionButtonStyle">
-    <ImageButton android:itemId="@+itemId/abs__imageButton"
+    <ImageButton android:id="@+id/abs__imageButton"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:layout_gravity="center"
@@ -37,7 +37,7 @@
                  android:adjustViewBounds="true"
                  android:background="@null"
                  android:focusable="false" />
-    <com.actionbarsherlock.internal.widget.CapitalizingButton android:itemId="@+itemId/abs__textButton"
+    <com.actionbarsherlock.internal.widget.CapitalizingButton android:id="@+id/abs__textButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

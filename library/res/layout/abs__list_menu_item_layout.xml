@@ -31,7 +31,7 @@
         android:duplicateParentState="true">
         
         <TextView 
-            android:itemId="@+itemId/abs__title"
+            android:id="@+id/abs__title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -43,10 +43,10 @@
             android:fadingEdge="horizontal" />
 
         <TextView
-            android:itemId="@+itemId/abs__shortcut"
+            android:id="@+id/abs__shortcut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@itemId/abs__title"
+            android:layout_below="@id/abs__title"
             android:layout_alignParentLeft="true"
             android:textAppearance="?attr/textAppearanceSmall"
             android:singleLine="true"
