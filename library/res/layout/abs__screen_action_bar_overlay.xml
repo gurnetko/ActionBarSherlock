@@ -23,22 +23,22 @@ the Action Bar enabled overlaying application content.
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
-    <com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout android:id="@+id/abs__content"
+    <com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout android:itemId="@+itemId/abs__content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <com.actionbarsherlock.internal.widget.ActionBarContainer android:id="@+id/abs__action_bar_container"
+    <com.actionbarsherlock.internal.widget.ActionBarContainer android:itemId="@+itemId/abs__action_bar_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         style="?attr/actionBarStyle"
         android:gravity="top">
         <com.actionbarsherlock.internal.widget.ActionBarView
-            android:id="@+id/abs__action_bar"
+            android:itemId="@+itemId/abs__action_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="?attr/actionBarStyle" />
         <com.actionbarsherlock.internal.widget.ActionBarContextView
-            android:id="@+id/abs__action_context_bar"
+            android:itemId="@+itemId/abs__action_context_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
@@ -48,8 +48,8 @@ the Action Bar enabled overlaying application content.
                android:scaleType="fitXY"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:layout_below="@id/abs__action_bar_container" />
-    <com.actionbarsherlock.internal.widget.ActionBarContainer android:id="@+id/abs__split_action_bar"
+               android:layout_below="@itemId/abs__action_bar_container" />
+    <com.actionbarsherlock.internal.widget.ActionBarContainer android:itemId="@+itemId/abs__split_action_bar"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:layout_gravity="bottom"

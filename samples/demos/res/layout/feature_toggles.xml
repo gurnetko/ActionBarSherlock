@@ -30,14 +30,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_actionbar_show"
+                    android:itemId="@+itemId/display_actionbar_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_actionbar_hide"
+                    android:itemId="@+itemId/display_actionbar_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -57,21 +57,21 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/navigation_standard"
+                    android:itemId="@+itemId/navigation_standard"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Standard" />
                 <Button
-                    android:id="@+id/navigation_list"
+                    android:itemId="@+itemId/navigation_list"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="List" />
                 <Button
-                    android:id="@+id/navigation_tabs"
+                    android:itemId="@+itemId/navigation_tabs"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -91,14 +91,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_tab_add"
+                    android:itemId="@+itemId/display_tab_add"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Add" />
                 <Button
-                    android:id="@+id/display_tab_select"
+                    android:itemId="@+itemId/display_tab_select"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -111,14 +111,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_tab_remove"
+                    android:itemId="@+itemId/display_tab_remove"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Remove" />
                 <Button
-                    android:id="@+id/display_tab_remove_all"
+                    android:itemId="@+itemId/display_tab_remove_all"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -138,14 +138,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_items_add"
+                    android:itemId="@+itemId/display_items_add"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Add" />
                 <Button
-                    android:id="@+id/display_items_clear"
+                    android:itemId="@+itemId/display_items_clear"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -165,14 +165,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_title_show"
+                    android:itemId="@+itemId/display_title_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_title_hide"
+                    android:itemId="@+itemId/display_title_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -192,14 +192,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_subtitle_show"
+                    android:itemId="@+itemId/display_subtitle_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_subtitle_hide"
+                    android:itemId="@+itemId/display_subtitle_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -219,14 +219,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_custom_show"
+                    android:itemId="@+itemId/display_custom_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_custom_hide"
+                    android:itemId="@+itemId/display_custom_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -246,14 +246,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_home_show"
+                    android:itemId="@+itemId/display_home_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_home_hide"
+                    android:itemId="@+itemId/display_home_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -273,14 +273,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_logo_show"
+                    android:itemId="@+itemId/display_logo_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Use" />
                 <Button
-                    android:id="@+id/display_logo_hide"
+                    android:itemId="@+itemId/display_logo_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -300,14 +300,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_home_as_up_show"
+                    android:itemId="@+itemId/display_home_as_up_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_home_as_up_hide"
+                    android:itemId="@+itemId/display_home_as_up_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -327,14 +327,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_progress_show"
+                    android:itemId="@+itemId/display_progress_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_progress_hide"
+                    android:itemId="@+itemId/display_progress_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -354,14 +354,14 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dip">
                 <Button
-                    android:id="@+id/display_iprogress_show"
+                    android:itemId="@+itemId/display_iprogress_show"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Show" />
                 <Button
-                    android:id="@+id/display_iprogress_hide"
+                    android:itemId="@+itemId/display_iprogress_hide"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

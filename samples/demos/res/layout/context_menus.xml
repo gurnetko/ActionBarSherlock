@@ -11,7 +11,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/show_context_menu"
+            android:itemId="@+itemId/show_context_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"

@@ -66,7 +66,7 @@ public class ShareActionProviders extends SherlockActivity {
 
         //XXX: For now, ShareActionProviders must be displayed on the action bar
         // Set file with share history to the provider and set the share intent.
-        //MenuItem overflowItem = menu.findItem(R.id.menu_item_share_action_provider_overflow);
+        //MenuItem overflowItem = menu.findItem(R.itemId.menu_item_share_action_provider_overflow);
         //ShareActionProvider overflowProvider =
         //    (ShareActionProvider) overflowItem.getActionProvider();
         //overflowProvider.setShareHistoryFileName(

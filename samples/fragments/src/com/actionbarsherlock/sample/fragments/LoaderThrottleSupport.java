@@ -83,7 +83,7 @@ public class LoaderThrottleSupport extends SherlockFragmentActivity {
 
         /**
          * The content URI base for a single row of data. Callers must
-         * append a numeric row id to this Uri to retrieve a row
+         * append a numeric row itemId to this Uri to retrieve a row
          */
         public static final Uri CONTENT_ID_URI_BASE
                 = Uri.parse("content://" + AUTHORITY + "/main/");

@@ -15,7 +15,7 @@
 -->
 
 <com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/abs__action_mode_close_button"
+        android:itemId="@+itemId/abs__action_mode_close_button"
         android:focusable="true"
         android:clickable="true"
         android:paddingLeft="8dip"

@@ -39,7 +39,7 @@
 
 	<repositories>
 		<repository>
-			<id>oss-sonatype</id>
+			<itemId>oss-sonatype</itemId>
 			<name>oss-sonatype</name>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 			<snapshots>
@@ -108,7 +108,7 @@
 
 	<profiles>
 		<profile>
-			<id>release</id>
+			<itemId>release</itemId>
 			<activation>
 				<property>
 					<name>performRelease</name>

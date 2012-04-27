@@ -263,7 +263,7 @@
     <declare-styleable name="SherlockMenuGroup">
 
         <!-- The ID of the group. -->
-        <attr name="android:id" />
+        <attr name="android:itemId" />
 
         <!-- The category applied to all items within this group.
              (This will be or'ed with the orderInCategory attribute.) -->
@@ -288,7 +288,7 @@
     <declare-styleable name="SherlockMenuItem">
 
         <!-- The ID of the item. -->
-        <attr name="android:id" />
+        <attr name="android:itemId" />
 
         <!-- The category applied to the item.
              (This will be or'ed with the orderInCategory attribute.) -->
@@ -371,8 +371,8 @@
         <!-- Width of the dropdown in spinnerMode="dropdown". -->
         <attr name="android:dropDownWidth" />
         <!-- Reference to a layout to use for displaying a prompt in the dropdown for
-             spinnerMode="dropdown". This layout must contain a TextView with the id
-             @android:id/text1 to be populated with the prompt text. -->
+             spinnerMode="dropdown". This layout must contain a TextView with the itemId
+             @android:itemId/text1 to be populated with the prompt text. -->
         <attr name="android:popupPromptView" />
         <!-- Gravity setting for positioning the currently selected item. -->
         <attr name="android:gravity" />

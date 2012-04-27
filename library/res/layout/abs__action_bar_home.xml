@@ -19,14 +19,14 @@
       android:layout_width="wrap_content"
       android:layout_height="fill_parent"
       android:background="?attr/actionBarItemBackground">
-    <ImageView android:id="@id/abs__up"
+    <ImageView android:itemId="@itemId/abs__up"
                android:src="?attr/homeAsUpIndicator"
                android:layout_gravity="center_vertical|left"
                android:visibility="gone"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginRight="-8dip" />
-    <ImageView android:id="@id/abs__home"
+    <ImageView android:itemId="@itemId/abs__home"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginRight="8dip"

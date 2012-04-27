@@ -24,7 +24,7 @@ $(function() {
 		var previous = $('#previous-releases').empty();
 		$.each(data, function(index) {
 			previous.append(
-				$('<dt>Version ' + this.name + '<span class="normal"> &mdash; <em id="' + this.commit.sha + '">Date unavailable</em></span></dt>'),
+				$('<dt>Version ' + this.name + '<span class="normal"> &mdash; <em itemId="' + this.commit.sha + '">Date unavailable</em></span></dt>'),
 				$('<dd><a class="img" href="' + this.zipball_url + '">Zip</a> &middot; <a class="img" href="' + this.tarball_url + '">Tarball</a></dd>')
 			);
 			$.getJSON(this.commit.url + '?callback=?', function(inner) {
@@ -83,31 +83,31 @@ $(function() {
 <div class="row">
 	<div class="three-fourths">
 		<h1>Download</h1>
-		<p><strong>Version <span class="latest-version">(loading)</span></strong> &mdash; <span id="latest-date">(loading)</span> (<a id="changelog" href="https://github.com/JakeWharton/ActionBarSherlock/tree/master/CHANGELOG.md#readme">change log</a>)</p>
-		<p><a class="img dl" id="latest-zip" href="https://github.com/JakeWharton/ActionBarSherlock/downloads"><img src="static/down_grey.png" alt="Zip"/> Download .zip</a></p>
-		<p><a class="img dl" id="latest-tarball" href="https://github.com/JakeWharton/ActionBarSherlock/downloads"><img src="static/down_grey.png" alt="Tarball"/> Download .tgz</a></p>
+		<p><strong>Version <span class="latest-version">(loading)</span></strong> &mdash; <span itemId="latest-date">(loading)</span> (<a itemId="changelog" href="https://github.com/JakeWharton/ActionBarSherlock/tree/master/CHANGELOG.md#readme">change log</a>)</p>
+		<p><a class="img dl" itemId="latest-zip" href="https://github.com/JakeWharton/ActionBarSherlock/downloads"><img src="static/down_grey.png" alt="Zip"/> Download .zip</a></p>
+		<p><a class="img dl" itemId="latest-tarball" href="https://github.com/JakeWharton/ActionBarSherlock/downloads"><img src="static/down_grey.png" alt="Tarball"/> Download .tgz</a></p>
 		<!-- Download icon by Ddate Kaspar / Franziska Sponsel -->
 
 		<h3>Plugins</h3>
-		<dl id="plugins">
+		<dl itemId="plugins">
 			<dt class="normal"><a href="https://github.com/JakeWharton/ActionBarSherlock-Plugin-Maps/downloads">Google Maps</a></dt>
 			<dd class="plugin">Base activity which extends from <code>MapActivity</code>.</dd>
 		</dl>
 
 		<h3>Sample Applications</h3>
-		<dl id="sample-apps">
+		<dl itemId="sample-apps">
 			<dt class="normal">(loading)</dt>
 		</dl>
 
 		<h3>Third-Party Plugins</h3>
-		<dl id="third-party">
+		<dl itemId="third-party">
 			<dt class="normal"><a href="https://github.com/rtyley/roboguice-sherlock">RoboGuice-Sherlock</a> &mdash; Roberto Tyley</dt>
 			<dd class="plugin">Base activities and base fragments which allow for easy use of RoboGuice and ActionBarSherlock together.</dd>
 		</dl>
 	</div>
 	<div class="fourth last">
 		<h1>Release History</h1>
-		<dl id="previous-releases">
+		<dl itemId="previous-releases">
 			<dt class="normal">(loading)</dt>
 		</dl>
 		<p><a href="https://github.com/JakeWharton/ActionBarSherlock/tags">View all &raquo;</a></p>

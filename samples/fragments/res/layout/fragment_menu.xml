@@ -27,7 +27,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/fragment_menu_msg" />
 
-    <CheckBox android:id="@+id/menu1"
+    <CheckBox android:itemId="@+itemId/menu1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -35,7 +35,7 @@
         android:text="@string/fragment1menu">
     </CheckBox>
     
-    <CheckBox android:id="@+id/menu2"
+    <CheckBox android:itemId="@+itemId/menu2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

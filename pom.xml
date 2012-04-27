@@ -34,7 +34,7 @@
 		<developer>
 			<name>Jake Wharton</name>
 			<email>jakewharton@gmail.com</email>
-			<id>jakewharton</id>
+			<itemId>jakewharton</itemId>
 			<url>http://jakewharton.com</url>
 			<timezone>-5</timezone>
 			<roles>

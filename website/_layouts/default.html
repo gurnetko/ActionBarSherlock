@@ -22,9 +22,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="whole">
-					<p id="header" class="small"><a class="img" href="index.html"><img src="static/logo_small.png" alt="Home"/></a></p>
+					<p itemId="header" class="small"><a class="img" href="index.html"><img src="static/logo_small.png" alt="Home"/></a></p>
 				</div>
-				<div class="whole" id="nav">
+				<div class="whole" itemId="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="download.html">Download</a></li>
@@ -41,7 +41,7 @@
 
 {{content}}
 
-			<div class="row" id="footer">
+			<div class="row" itemId="footer">
 				<div class="half">
 					<p>&copy; 2012 Jake Wharton <small>( <a href="http://twitter.com/JakeWharton">@</a> / <a href="http://profiles.google.com/jakewharton">+</a> )</small></p>
 				</div>
@@ -50,7 +50,7 @@
 					<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://actionbarsherlock.com" data-text="ActionBarSherlock - Action bar design pattern for all versions of Android." data-count="horizontal" data-via="JakeWharton">Tweet</a>
 					<iframe src="http://www.facebook.com/plugins/like.php?app_id=186126341440594&amp;href=http%3A%2F%2Factionbarsherlock.com&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
 					<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://actionbarsherlock.com"></a><noscript><a href="http://flattr.com/thing/320252/ActionBarSherlock" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
-					<a id="github" href="https://github.com/JakeWharton/ActionBarSherlock"><img style="position: absolute; top: 0; right: 0; border: 0;" src="static/ribbon.png" alt="Fork me on GitHub"></a>
+					<a itemId="github" href="https://github.com/JakeWharton/ActionBarSherlock"><img style="position: absolute; top: 0; right: 0; border: 0;" src="static/ribbon.png" alt="Fork me on GitHub"></a>
 				</div>
 			</div>
 		</div>
@@ -60,8 +60,8 @@
 				var t   = document.createElement('script');
 				t.type  = 'text/javascript';
 				t.async = true;
-				t.id    = 'gauges-tracker';
-				t.setAttribute('data-site-id', '4f455953f5a1f51c10000075');
+				t.itemId    = 'gauges-tracker';
+				t.setAttribute('data-site-itemId', '4f455953f5a1f51c10000075');
 				t.src = '//secure.gaug.es/track.js';
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(t, s);

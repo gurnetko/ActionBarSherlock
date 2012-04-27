@@ -147,7 +147,7 @@ ADT 14 is now required. Maven 3 is required if building from the command line.
    on post-3.0 when no tab was selected or no tab existed at the specified
    position, respectively.
  * Fix: `findFragmentById` now properly returns fragments attached to
-   `android.R.id.content` when run on pre-3.0 devices.
+   `android.R.itemId.content` when run on pre-3.0 devices.
 
 
 Version 3.3.0 *(2011-10-11)*
@@ -252,7 +252,7 @@ Version 3.1.1 *(2011-07-31)*
  * Fix: Fragment methods `onAttach` and `onInflate` incorrectly regressed to use
    `Activity` instead of a `FragmentActivity` in their method signatures.
  * Fix: Retained fragments not being re-attached on pre-3.0 when attached to
-   `android.R.id.content` upon activity recreation.
+   `android.R.itemId.content` upon activity recreation.
  * Fix: `onPrepareOptionsMenu` not dispatched to fragments. This still will only
    occur if the activity method returns true (which is the default).
  * Fix: `Menu.findItem` not returning `null` when the item was not found on

@@ -20,7 +20,7 @@
                 android:layout_marginBottom="30dp"
                 android:text="@string/overlay_content" />
             <TextView
-                android:id="@+id/bunch_of_text"
+                android:itemId="@+itemId/bunch_of_text"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
