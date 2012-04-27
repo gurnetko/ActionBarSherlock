@@ -38,7 +38,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-support-v4" level="project" />
-    <orderEntry type="library" name="Test libs" level="project" />
+    <orderEntry type="library" scope="TEST" name="Test libs" level="project" />
     <orderEntry type="module" module-name="Robolectric" />
   </component>
 </module>
